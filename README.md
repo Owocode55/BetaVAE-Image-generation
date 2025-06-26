@@ -43,17 +43,3 @@ This model was trained on the [FFHQ-64x64 dataset](https://huggingface.co/datase
 We used the **[Dmini/FFHQ-64x64](https://huggingface.co/datasets/Dmini/FFHQ-64x64)** dataset available on Hugging Face. The dataset contains **70,000+** high-quality human face images resized to 64×64 resolution.
 
 ---
-
-## 📦 Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/beta-vae-facegen.git
-cd beta-vae-facegen
-
-# Create a virtual environment (optional)
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-# Install dependencies
-pip install -r requirements.txt
